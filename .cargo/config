@@ -1,0 +1,11 @@
+# This cargo config file was generated automatically.
+[source.crates-io]
+replace-with = 'local-registry'
+
+[source.local-registry]
+local-registry = '/Users/jennlin/Code/AoC/AoC/build/Aoc-jennlin/Aoc-jennlin-1.0/AL2012/DEV.STD.PTHREAD/build/private/cargo-registry'
+
+[build]
+target-dir = "/Users/jennlin/Code/AoC/AoC/env/brazilrust-cargo-target"
+rustflags = ["-Ctarget-cpu=core2", "-Clink-args=", "-Clinker=cc"]
+rustc = "/Users/jennlin/Code/AoC/AoC/src/Aoc-jennlin/.cargo/rustc.wrapper"
